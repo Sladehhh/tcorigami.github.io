@@ -4,6 +4,10 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-image: url('WallpaperSite.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
 }
 
 header {
