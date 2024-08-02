@@ -47,15 +47,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
-    footer {
-        height: 60px; /* Reduz a altura do rodapé */
-        padding: 5px 0; /* Reduz o preenchimento do rodapé */
-        font-size: 14px; /* Reduz o tamanho da fonte do rodapé */
-    }
-}
