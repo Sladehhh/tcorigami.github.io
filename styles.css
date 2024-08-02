@@ -1,4 +1,4 @@
-/* Estilos gerais */
+/* Fonte */
 @font-face {
     font-family: 'Agrandir';
     src: url('Agrandir-Regular.otf') format('truetype');
@@ -9,6 +9,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    /* Wallpaper */
     background-image: url('WallpaperSite.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -18,7 +19,7 @@ body {
 header {
     background-color: #231F20;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -49,4 +50,12 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+    footer {
+        height: 60px; /* Reduz a altura do rodapé */
+        padding: 5px 0; /* Reduz o preenchimento do rodapé */
+        font-size: 14px; /* Reduz o tamanho da fonte do rodapé */
+    }
 }
