@@ -6,6 +6,12 @@
     <title>Team Crazy Origamis - História</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="TCORIGAMI-1.png">
+    <style>
+        /* Estilos adicionais, se necessário */
+        .hidden {
+            display: none; /* Inicia a imagem como invisível */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,10 +27,22 @@
     <main>
         <h1>História</h1>
         <p>O TC Origamis foi um site originado a partir de um trabalho de projeto de vida sobre vendas, que acabou se reformulando e se tornando um site sobre tutoriais de como fazer um origami, contendo diversas informações (algumas até inúteis) sobre origamis.</p>
+         <button id="botaoInvisivel" onclick="mostrarImagem()">Clique aqui para mostrar a imagem</button>
+        
+        <!-- Imagem oculta -->
+        <img id="minhaImagem" class="hidden" src="imagemsecreta.jpg" alt="Imagem">
     </main>
 
     <footer>
         <p>© 2024 TC ORIGAMIS</p>
     </footer>
+
+    <script>
+        function mostrarImagem() {
+            var imagem = document.getElementById("minhaImagem");
+            imagem.classList.toggle("hidden"); // Alterna entre visível e invisível
+        }
+    </script>
+    
 </body>
 </html>
