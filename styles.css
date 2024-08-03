@@ -55,6 +55,21 @@ footer {
     margin-top: auto;
 }
 
+ #footerButton {
+            background: none;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: underline;
+        }
+#footerButton:focus {
+            outline: none;
+        }
+.hidden {
+            display: none;
+        }
+
 @media (max-width: 768px) and (orientation: landscape) {
     footer {
         height: 60px; /* Reduz a altura do rodapé */
