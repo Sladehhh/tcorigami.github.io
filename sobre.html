@@ -39,11 +39,23 @@
     <main>
         <h1>História</h1>
         <p>O TC Origamis foi um site originado a partir de um trabalho de projeto de vida sobre vendas, que acabou se reformulando e se tornando um site sobre tutoriais de como fazer um origami, contendo diversas informações (algumas até inúteis) sobre origamis.</p>
+         <!-- Imagem oculta -->
+        <img id="minhaImagem" class="hidden" src="imagemsecreta.jpg" alt="Imagem">
+    </main>
+
     </main>
 
     <footer>
+          <!-- Texto do rodapé que age como um botão -->
+        <button id="footerButton" onclick="mostrarImagem()">Clique aqui para mostrar a imagem</button>
         <p>© 2024 TC ORIGAMIS</p>
     </footer>
-
+    
+    <script>
+        function mostrarImagem() {
+            var imagem = document.getElementById("minhaImagem");
+            imagem.classList.toggle("hidden"); // Alterna entre visível e invisível
+        }
+    </script>
 </body>
 </html>
