@@ -7,25 +7,26 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="TCORIGAMI-1.png">
     <style>
-       /* Estilos adicionais para o botão invisível */
-         #botaoInvisivel {
+       #botaoInvisivel {
             background: transparent;
             border: none;
-            position: absolute; /* Ajuste a posição conforme necessário */
-            top: 10px; /* Ajuste conforme necessário */
-            left: 10px; /* Ajuste conforme necessário */
+            position: absolute;
+            top: 0; /* Ajuste conforme necessário */
+            left: 0; /* Ajuste conforme necessário */
             width: 100px; /* Ajuste conforme necessário */
             height: 30px; /* Ajuste conforme necessário */
-            cursor: pointer; /* Indica que é clicável */
-            padding: 0; /* Remove o padding padrão */
-            margin: 0; /* Remove a margem padrão */
-            overflow: hidden; /* Garante que nenhum texto ou borda apareça */
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0); /* Oculta o botão completamente */
+            white-space: nowrap; /* Garante que o texto não seja exibido */
         }
 
         #botaoInvisivel span {
             display: none; /* Garante que qualquer texto dentro do botão não seja exibido */
         }
-        
+
         .hidden {
             display: none; /* Inicia a imagem como invisível */
         }
@@ -45,13 +46,14 @@
     <main>
         <h1>História</h1>
         <p>O TC Origamis foi um site originado a partir de um trabalho de projeto de vida sobre vendas, que acabou se reformulando e se tornando um site sobre tutoriais de como fazer um origami, contendo diversas informações (algumas até inúteis) sobre origamis.</p>
-        <!-- Botão invisível -->
+       <!-- Botão invisível -->
         <button id="botaoInvisivel" onclick="mostrarImagem()">
             <span>Clique aqui para mostrar a imagem</span> <!-- Texto para acessibilidade, mas invisível -->
         </button>
         
         <!-- Imagem oculta -->
         <img id="minhaImagem" class="hidden" src="imagemsecreta.jpg" alt="Imagem">
+
     </main>
 
     <footer>
