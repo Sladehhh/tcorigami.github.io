@@ -55,19 +55,20 @@ footer {
     margin-top: auto;
 }
 
+ .hidden {
+            display: none; /* Inicia a imagem como invisível */
+        }
  #footerButton {
             background: none;
             border: none;
-            color: #fff;
-            cursor: pointer;
-            font-size: 16px;
-            text-decoration: underline;
+            color: #fff; /* Cor do texto no rodapé */
+            cursor: pointer; /* Indica que é clicável */
+            font-size: 16px; /* Ajuste conforme necessário */
+            text-align: center;
+            display: block; /* Garante que o botão ocupe o espaço completo do rodapé */
         }
-#footerButton:focus {
-            outline: none;
-        }
-.hidden {
-            display: none;
+ #footerButton:focus {
+            outline: none; /* Remove o contorno padrão quando o botão está focado */
         }
 
 @media (max-width: 768px) and (orientation: landscape) {
