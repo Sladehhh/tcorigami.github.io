@@ -4,27 +4,6 @@
     src: url('Agrandir-Regular.otf') format('truetype');
 }
 
-#botaoInvisivel {
-    background: transparent;
-    border: none;
-    position: absolute; /* Ou `fixed`, conforme necessário */
-    top: 0; /* Ajuste conforme necessário */
-    left: 0; /* Ajuste conforme necessário */
-    width: 100px; /* Ajuste conforme necessário */
-    height: 30px; /* Ajuste conforme necessário */
-    cursor: pointer; /* Indica que é clicável */
-    padding: 0; /* Remove o padding padrão */
-    margin: 0; /* Remove a margem padrão */
-    overflow: hidden; /* Garante que nenhum texto ou borda apareça */
-    clip: rect(0, 0, 0, 0); /* Oculta o botão completamente */
-    position: absolute; /* Retira o botão do fluxo normal do layout */
-    white-space: nowrap; /* Garante que o texto não seja exibido */
-}
-
-#botaoInvisivel span {
-    display: none; /* Garante que qualquer texto dentro do botão não seja exibido */
-}
-
 html, body {
     height: 100%;
     margin: 0;
