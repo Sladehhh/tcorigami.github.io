@@ -97,13 +97,6 @@ footer {
     }    
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
-    .container {
-        width: 90%; /* Ajusta a largura da caixa para 90% da largura da tela em modo retrato */
-        max-width: 350px; /* Define um limite máximo de largura para a caixa em modo retrato */
-    }
-}
-
 @media (max-width: 768px) {
     header {
         word-spacing: 0px; /* Reduz o espaçamento entre palavras em dispositivos móveis */
