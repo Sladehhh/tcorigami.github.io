@@ -5,12 +5,12 @@
 }
 
 .container {
-            width: 80%; /* Largura da caixa branca */
-            margin: 0 auto; /* Centraliza horizontalmente */
-            background-color: #fff; /* Cor de fundo branca */
-            padding: 20px; /* Espaçamento interno */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-            overflow: auto;
+             width: 600px; /* Largura fixa */
+             height: 400px; /* Altura fixa */
+             background-color: #fff; /* Cor de fundo branca */
+             padding: 20px; /* Espaçamento interno */
+             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+             overflow: auto; /* Adiciona barra de rolagem se o conteúdo exceder a altura */
 }
 
 html, body {
@@ -25,10 +25,6 @@ html, body {
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 header {
