@@ -89,5 +89,14 @@ footer {
         height: 60px; /* Reduz a altura do rodapé */
         padding: 5px 0; /* Reduz o preenchimento do rodapé */
         font-size: 14px; /* Reduz o tamanho da fonte do rodapé */
+        word-spacing: 20px;
+    }
+    .container {
+            width: 60%; /* Largura da caixa branca */
+            margin: 0 auto; /* Centraliza horizontalmente */
+            background-color: #fff; /* Cor de fundo branca */
+            padding: 20px; /* Espaçamento interno */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            overflow: auto;
     }
 }
