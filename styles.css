@@ -5,8 +5,10 @@
 }
 
 .container {
-            width: 600px; /* Largura fixa */
-            height: 400px; /* Altura fixa */
+            width: 100%;
+            max-width: 600px; /* Largura máxima para evitar que fique muito largo */
+            height: auto;
+            max-height: 80vh; /* Limita a altura da caixa */
             margin: 0 auto; /* Centraliza horizontalmente */
             background-color: #fff; /* Cor de fundo branca */
             padding: 20px; /* Espaçamento interno */
@@ -96,9 +98,10 @@ footer {
         height: 60px; /* Reduz a altura do rodapé */
         padding: 5px 0; /* Reduz o preenchimento do rodapé */
         font-size: 14px; /* Reduz o tamanho da fonte do rodapé */
-        word-spacing: 20px;
     }
     .container {
-            padding: 10px; /* Espaçamento interno */
+        width: 90%; /* Reduz a largura para 90% da tela em dispositivos móveis */
+        max-width: none; /* Remove a largura máxima */
+        padding: 10px; /* Reduz o padding interno */
     }
 }
