@@ -4,6 +4,14 @@
     src: url('Agrandir-Regular.otf') format('truetype');
 }
 
+.container {
+            width: 60%; /* Largura da caixa branca */
+            margin: 0 auto; /* Centraliza horizontalmente */
+            background-color: #fff; /* Cor de fundo branca */
+            padding: 20px; /* Espaçamento interno */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
 html, body {
     height: 100%;
     margin: 0;
