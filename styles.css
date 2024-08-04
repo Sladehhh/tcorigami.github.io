@@ -99,6 +99,6 @@ footer {
 
 @media (max-width: 768px) {
     header {
-        word-spacing: 20px; /* Reduz o espaçamento entre palavras em dispositivos móveis */
+        word-spacing: 0px; /* Reduz o espaçamento entre palavras em dispositivos móveis */
     }
 }
