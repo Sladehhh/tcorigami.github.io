@@ -64,7 +64,6 @@ footer {
     padding: 10px 0;
     width: 100%;
     flex-shrink: 0;
-    position: relative;
 }
 
  .hidden {
