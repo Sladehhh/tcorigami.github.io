@@ -98,8 +98,11 @@ footer {
         height: 60px; /* Reduz a altura do rodapé */
         padding: 5px 0; /* Reduz o preenchimento do rodapé */
         font-size: 14px; /* Reduz o tamanho da fonte do rodapé */
-    }
-    .container {
+    }    
+}
+
+@media (max-width: 768px) {
+.container {
         width: 90%; /* Reduz a largura para 90% da tela em dispositivos móveis */
         max-width: none; /* Remove a largura máxima */
         padding: 10px; /* Reduz o padding interno */
