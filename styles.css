@@ -45,11 +45,14 @@ header nav ul li a {
 main {
     flex: 1;
     padding: 20px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
 }
 
 .container {
-             width: 600px; /* Largura fixa */
-             height: 400px; /* Altura fixa */
+             width: 1200px; /* Largura fixa */
+             height: 600px; /* Altura fixa */
              background-color: #fff; /* Cor de fundo branca */
              padding: 20px; /* Espaçamento interno */
              box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
