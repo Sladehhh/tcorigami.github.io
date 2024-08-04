@@ -62,11 +62,13 @@ footer {
     padding: 10px 0;
     width: 100%;
     margin-top: auto;
+    position: relative;
 }
 
  .hidden {
             display: none; /* Inicia a imagem como invisível */
         }
+
  #footerButton {
             font-family: 'Agrandir', sans-serif;
             background: none;
@@ -78,6 +80,7 @@ footer {
             display: inline-block; /* Garante que o botão seja tratado como um bloco em linha */
             margin: 0 auto; /* Centraliza o botão */
         }
+
  #footerButton:focus {
             outline: none; /* Remove o contorno padrão quando o botão está focado */
         }
