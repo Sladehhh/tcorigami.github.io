@@ -31,15 +31,6 @@ html, body {
     height: 50px; /* Ajuste a altura conforme necessário */
 }
 
-
-header {
-    background-color: #231F20;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    word-spacing: 80px;
-}
-
 header nav {
     flex: 1;
     display: flex;
