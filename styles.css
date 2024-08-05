@@ -19,6 +19,19 @@ html, body {
     flex-direction: column;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #231F20;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px; /* Ajuste a altura conforme necessário */
+}
+
+
 header {
     background-color: #231F20;
     color: #fff;
