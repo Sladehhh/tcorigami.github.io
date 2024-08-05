@@ -25,6 +25,7 @@ html, body {
     justify-content: space-between;
     background-color: #231F20;
     padding: 10px 20px;
+    word-spacing: 80px;
 }
 
 .logo {
@@ -35,7 +36,6 @@ header nav {
     flex: 1;
     display: flex;
     justify-content: center; /* Centraliza o menu de navegação */
-    word-spacing: 80px;
 }
 
 header nav ul {
