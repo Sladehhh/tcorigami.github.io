@@ -40,6 +40,12 @@ header {
     word-spacing: 80px;
 }
 
+header nav {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Centraliza o menu de navegação */
+}
+
 header nav ul {
     list-style-type: none;
     padding: 0;
