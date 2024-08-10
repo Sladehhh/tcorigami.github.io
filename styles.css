@@ -12,12 +12,19 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     overflow: auto; /* Adiciona barra de rolagem se o conteúdo exceder a altura */
     margin: 20px auto; /* Centraliza a caixa na página */
+    display: flex; /* Alinha os itens lado a lado */
+    justify-content: space-between; /* Espaça o conteúdo */
 }
 
-#sobrePage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#sobrePage .text-content {
+    flex: 1; /* O texto ocupa o espaço disponível */
+    padding-right: 20px; /* Espaçamento entre o texto e a imagem */
+}
+
+#sobrePage .image-content img {
+    max-width: 400px; /* Largura máxima da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    object-fit: cover; /* Cobre a área sem distorcer a imagem */
 }
 
 html, body {
