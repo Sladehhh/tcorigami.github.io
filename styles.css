@@ -4,6 +4,22 @@
     src: url('Agrandir-Regular.otf') format('truetype');
 }
 
+#sobrePage .container {
+    width: 1200px; /* Largura fixa */
+    height: 600px; /* Altura fixa */
+    background-color: #fff; /* Cor de fundo branca */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    overflow: auto; /* Adiciona barra de rolagem se o conteúdo exceder a altura */
+    margin: 20px auto; /* Centraliza a caixa na página */
+}
+
+#sobrePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -68,16 +84,6 @@ main {
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
-}
-
-.container {
-             width: 1200px; /* Largura fixa */
-             height: 600px; /* Altura fixa */
-             background-color: #fff; /* Cor de fundo branca */
-             padding: 20px; /* Espaçamento interno */
-             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-             overflow: auto; /* Adiciona barra de rolagem se o conteúdo exceder a altura */
-             margin: 20px auto; /* Centraliza a caixa na página */
 }
 
 footer {
