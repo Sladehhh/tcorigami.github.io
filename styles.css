@@ -14,6 +14,7 @@
     margin: 20px auto; /* Centraliza a caixa na página */
     display: flex; /* Alinha os itens lado a lado */
     justify-content: space-between; /* Espaça o conteúdo */
+    border-radius: 10px;
 }
 
 #sobrePage .text-content {
